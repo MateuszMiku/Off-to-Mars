@@ -1,8 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 1 1 auto;
     margin: 0px;
+    font-family: 'roboto', sans-serif;
 }
 .header {
     display: flex;
@@ -14,14 +15,6 @@ body {
     display: flex;
     column-gap: 20px;
     
-}
-
-h1 {
-
-}
-
-ul {
-    list-style-type: none;
 }
 
 a {
@@ -54,21 +47,76 @@ img {
 }
 
 .undertop {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 ul {
     display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
 }
 
 .quotebox {
-    display: flex;
+display: flex;
+flex: 1 1 auto;
+flex-direction: column;
 background-color: #e5e7eb;
+align-items: center;
 }
 
+.who {
+    /* what should i do?*/
+}
 .signupbox {
+    display: flex;
     background-color: #3882f6;
-
+    justify-content: center;
+    color: rgb(241, 241, 241);
 }
 
+.leftside {
+    display: flex;
+    flex-direction: column;
+}
 
+/*these are buttons*/
+
+.upper {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: rgb(241, 241, 241);
+}
+
+.upper:hover {
+    background-color: #1f2937;
+}
+
+.lower {
+    display: flex;
+    align-self: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: rgb(241, 241, 241);
+}
+
+.lower:hover {
+    background-color: #0055ff;
+}
+
+.copyright {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+}
