@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin: 0px;
 }
 .header {
     display: flex;
@@ -16,8 +17,6 @@ body {
 }
 
 h1 {
-    font: 48px bolder #F9FAF8;
-    /* not working?*/
 
 }
 
@@ -35,6 +34,11 @@ img {
     display: flex;
 }
 
+.illustration {
+    width: 150px;
+    height: auto;
+}
+
 .underheader {
     display: flex;
     align-items: center;
@@ -45,6 +49,26 @@ img {
     display: flex;
     flex-direction: column;
     padding: 50px;
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.undertop {
+
+}
+
+ul {
+    display: flex;
+}
+
+.quotebox {
+    display: flex;
+background-color: #e5e7eb;
+}
+
+.signupbox {
+    background-color: #3882f6;
+
 }
 
 
