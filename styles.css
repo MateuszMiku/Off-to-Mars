@@ -15,12 +15,13 @@ body {
 
 .linki {
     display: flex;
-    column-gap: 20px;
+    column-gap: 55px;
     color: #e5e7eb;
 }
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 img {
@@ -30,12 +31,16 @@ img {
 }
 
 h1 {
-    font-size: 52px;
+    font-size: 60px;
 }
 
 .illustration {
     width: 300px;
-    height: auto;
+    height: 300px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    padding: 0px;
+/*white elements?*/
 }
 
 .underheader {
@@ -48,6 +53,7 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 0px 250px 100px 250px;
+    margin-top: -20px;
     background-color: #1f2937;
     color: #F9FAF8;
     gap: 100px;
@@ -69,6 +75,14 @@ h2 {
     font-size: 45px;
 }
 
+.random {
+    color: #1f2937;
+}
+
+.subtexts {
+    color: #1f2937;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -84,12 +98,26 @@ li {
 
 .quotebox {
 display: flex;
-flex: 1 1 auto;
+flex: 1;
 flex-direction: column;
 background-color: #e5e7eb;
-align-items: center;
-padding: 200px;
-font-size: 30px;
+font-size: 50px;
+}
+
+cite {
+    display: flex;
+    padding: 120px 400px 0px 400px;
+    font-size: 50px;
+    color: #1f2937;
+}
+
+.who {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 450px;
+    padding-bottom: 80px;
+    font-size: 30px;
+    
 }
 
 .signupbox {
