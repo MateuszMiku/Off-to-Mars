@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    flex: 1 0 auto;
     margin: 0px;
     font-family: 'roboto', sans-serif;
 }
@@ -9,12 +9,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 28px;
+    color: #F9FAF8;
 }
 
 .linki {
     display: flex;
     column-gap: 20px;
-    
+    color: #e5e7eb;
 }
 
 a {
@@ -22,13 +24,17 @@ a {
 }
 
 img {
-    width: 300px;
+    width: 400px;
     height: auto;
     display: flex;
 }
 
+h1 {
+    font-size: 52px;
+}
+
 .illustration {
-    width: 150px;
+    width: 300px;
     height: auto;
 }
 
@@ -41,21 +47,32 @@ img {
 .top {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 0px 250px 100px 250px;
     background-color: #1f2937;
     color: #F9FAF8;
+    gap: 100px;
+}
+
+.subtext1 {
+    color: #e5e7eb;
+    font-size: 24px;
 }
 
 .undertop {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 20px 150px 20px;
+}
+
+h2 {
+    font-size: 45px;
 }
 
 ul {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 55px;
 }
 
 li {
@@ -71,43 +88,57 @@ flex: 1 1 auto;
 flex-direction: column;
 background-color: #e5e7eb;
 align-items: center;
+padding: 200px;
+font-size: 30px;
 }
 
-.who {
-    /* what should i do?*/
-}
 .signupbox {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 220px;
+    padding: 40px 140px;
+    border-radius: 10px;
+    font-size: 30px;
     background-color: #3882f6;
-    justify-content: center;
     color: rgb(241, 241, 241);
 }
 
-.leftside {
-    display: flex;
-    flex-direction: column;
+.header3 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.underheader3 {
+    font-size: 24px;
+    color: #e5e7eb;
 }
 
 /*these are buttons*/
 
 .upper {
     background-color: #3882f6;
-    border: 2px solid white;
+    border: 0px;
     border-radius: 8px;
     color: rgb(241, 241, 241);
+    padding: 15px;
+    font-size: large;
+    font-weight: 800;
 }
 
 .upper:hover {
-    background-color: #1f2937;
+    background-color: #0055ff;
 }
 
 .lower {
     display: flex;
-    align-self: center;
-    border: 2px solid white;
+    border: 4px solid white;
     border-radius: 8px;
     background-color: #3882f6;
     color: rgb(241, 241, 241);
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 35px;
 }
 
 .lower:hover {
@@ -119,4 +150,6 @@ align-items: center;
     background-color: #1f2937;
     color: #e5e7eb;
     justify-content: center;
+    padding: 30px;
+    font-size: 20px;
 }
