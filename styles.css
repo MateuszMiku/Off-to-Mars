@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex: 1 0 auto;
     margin: 0px;
     font-family: 'roboto', sans-serif;
@@ -43,7 +44,8 @@ h1 {
 }
 
 .subtexts {
-margin: 0px 10px;
+margin-right: 5px;
+margin-left: 5px;
 }
 
 .underheader {
@@ -51,7 +53,6 @@ margin: 0px 10px;
     align-items: center;
     justify-content: center;
 }
-/*imgs not aligned with center of the page*/
 
 .top {
     display: flex;
@@ -71,6 +72,7 @@ margin: 0px 10px;
 
 .undertop {
     display: flex;
+    flex: 1 0 auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -97,6 +99,10 @@ span {
 ul {
     display: flex;
     list-style: none;
+}
+
+.ulsubtexts {
+    padding: 0px;
 }
 
 li {
