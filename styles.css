@@ -2,10 +2,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: 1 0 auto;
+    flex: 1 0 0;
     margin: 0px;
     font-family: 'roboto', sans-serif;
+    zoom: 75%;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -34,6 +36,7 @@ img {
 
 h1 {
     font-size: 80px;
+    color: white;
 }
 
 .illustration {
@@ -60,7 +63,7 @@ margin-left: 5px;
     padding: 0px 250px 100px 250px;
     margin-top: -20px;
     background-color: #1f2937;
-    color: #F9FAF8;
+    color: white;
     gap: 100px;
 }
 
